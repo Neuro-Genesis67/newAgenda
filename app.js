@@ -2,8 +2,8 @@ const express    = require('express');
 const app        = express();
 const hbs        = require('hbs');
 const path       = require('path');
-const bodyParser = require('body-parser');
-const urlEncoder = bodyParser.urlencoded({ extended: false });
+// const bodyParser = require('body-parser');
+// const urlEncoder = bodyParser.urlencoded({ extended: false });
 const port       = process.env.PORT || 3000;
 // const router     = require('./routes/router');
 // const mongoose   = require('mongoose');
@@ -13,7 +13,7 @@ const port       = process.env.PORT || 3000;
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/views'));
 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/public')));
 // app.use('/router', router);
 
