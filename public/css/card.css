@@ -20,3 +20,8 @@ body {
 #form, #card {
     visibility: hidden;
 }
+
+#navUpCtrl, #navUpArrow, #navDownCtrl, #navDownArrow {
+    height: 7vh;
+    width: 4.5vw;
+}
