@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use('/router', router);
 
 app.get('/', (req, res) => {
-    res.render('0_Welcome.html', {
+    res.render('_00_Welcome.html', {
         currentPage: 0,
         previousPage: 0
     });
