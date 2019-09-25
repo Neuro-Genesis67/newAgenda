@@ -35,9 +35,7 @@
         <entry file="file://$PROJECT_DIR$/views/0_Welcome.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -308,12 +306,12 @@
       <workItem from="1569404081032" duration="621000" />
       <workItem from="1569407655424" duration="10000" />
       <workItem from="1569408338575" duration="434000" />
-      <workItem from="1569409096851" duration="792000" />
+      <workItem from="1569409096851" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96415000" />
+    <option name="totallyTimeSpent" value="96622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,9 +495,7 @@
     <entry file="file://$PROJECT_DIR$/views/0_Welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
