@@ -1,4 +1,4 @@
-console.log("initialized ----- 0_Welcome.js");
+console.log("initialized ----- _0_Welcome.js");
 
 let currentPage  = parseInt(document.getElementById('currentPage').innerHTML);
 let previousPage = parseInt(document.getElementById('previousPage').innerHTML);
