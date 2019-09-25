@@ -34,14 +34,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/0_Welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/card.css">
+        <entry file="file://$PROJECT_DIR$/public/css/card.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
@@ -50,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/0_Welcome.css">
+        <entry file="file://$PROJECT_DIR$/public/css/0_Welcome.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -314,12 +314,12 @@
       <workItem from="1569404081032" duration="621000" />
       <workItem from="1569407655424" duration="10000" />
       <workItem from="1569408338575" duration="434000" />
-      <workItem from="1569409096851" duration="1902000" />
+      <workItem from="1569409096851" duration="2012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97525000" />
+    <option name="totallyTimeSpent" value="97635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,10 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/1_HowWasYourDay.css">
+    <entry file="file://$PROJECT_DIR$/public/css/1_HowWasYourDay.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/public/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="983">
           <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
@@ -479,14 +479,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/card.css">
+    <entry file="file://$PROJECT_DIR$/public/css/card.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/0_Welcome.css">
+    <entry file="file://$PROJECT_DIR$/public/css/0_Welcome.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -498,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/0_Welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
