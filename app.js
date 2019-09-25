@@ -1,34 +1,35 @@
 const express    = require('express');
 const app        = express();
-const hbs        = require('hbs');
+const mustache   = require('mustache-express');
 const path       = require('path');
-// const bodyParser = require('body-parser');
-// const urlEncoder = bodyParser.urlencoded({ extended: false });
+const bodyParser = require('body-parser');
+const urlEncoder = bodyParser.urlencoded({ extended: false });
 const port       = process.env.PORT || 3000;
-// const router     = require('./routes/router');
-// const mongoose   = require('mongoose');
-// require('dotenv/config');
+const router     = require('./routes/router');
+const mongoose   = require('mongoose');
+                   require('dotenv/config');
 
+app.engine('html', mustache());
 
-app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, '/public/views'));
+app.set('view engine', 'html');
+app.set('views', __dirname + '/views');
 
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/public')));
-// app.use('/router', router);
+app.use('/router', router);
 
 app.get('/', (req, res) => {
-    res.render('0_welcome.hbs', {
-        currentPage:  0,
+    res.render('0_Welcome.html', {
+        currentPage: 0,
         previousPage: 0
     });
 });
 
-// mongoose.connect(
-//     process.env.DB_CONNECTION,
-//     {useNewUrlParser: true},
-//     () => console.log('Server connected to database')
-// );
+mongoose.connect(
+    process.env.DB_CONNECTION,
+    {useNewUrlParser: true},
+    () => console.log('Server connected to database')
+);
 
 app.listen(port, () => console.log(`Server listening on port ${port}`));
 
